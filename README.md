@@ -1,16 +1,31 @@
-## Hi there 👋
+# Olá, eu sou Priscila da luz!👋
 
-<!--
-**Priscila-luz487/Priscila-luz487** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##👩‍💻 **Sobre mim**
 
-Here are some ideas to get you started:
+-🚀 Estudante de tecnoliga apaixonada por aprendercoisas novas.
+-🎓 Atualmente focada em lógica de programação e desenvolvimento web.
+-🍃 Buscando aprimorar meu conhecimento ainda mais!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Ferramentas e tecnologias
+Aqui estão algumas tecnologias que utilizo ou estou aprendendo:
+
+HTML, CSS, JAVASCRIPT:
+
+
+<div align="left">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Priscila-luz487"/>
+</div>
+
+  
+  ---
+  
+  🌐**Como me encontrar**
+  
+  <div align="left">
+  📩[Meu Gmail](mailto:priscila.luz@unifebe.edu.br)
+</div>
+
+  
+
+
+
