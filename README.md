@@ -3,18 +3,21 @@
 ##👩‍💻 **Sobre mim**
 
 -🚀 Estudante de tecnoliga apaixonada por aprendercoisas novas.
+
 -🎓 Atualmente focada em lógica de programação e desenvolvimento web.
+
 -🍃 Buscando aprimorar meu conhecimento ainda mais!
 
-### 🛠️ Ferramentas e tecnologias
-Aqui estão algumas tecnologias que utilizo ou estou aprendendo:
 
-HTML, CSS, JAVASCRIPT:
+<div>
+<a href="https://github.com/Priscila-luz487"> </a>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Priscila-luz487&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/> 
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priscila-luz487&layout=compact&langs_count=16&theme=dark"/> </div>
 
 
-<div align="left">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Priscila-luz487"/>
-</div>
+
+
+
 
   
   ---
