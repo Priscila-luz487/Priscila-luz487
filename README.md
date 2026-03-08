@@ -1,4 +1,4 @@
-# Olá, eu sou Priscila da luz!👋
+# Priscila da luz!💚
 
 👩‍💻**Estudante de Sistemas de Informação**
 
