@@ -1,56 +1,179 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Currículo - Priscila Luz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Priscila Trein da Luz</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #1abc9c;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #1abc9c;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #ecf0f1;
+        }
+
+        /* Contatos */
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #1abc9c;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seções */
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .contact-info {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Cabeçalho Principal -->
-    <h1>Priscila Luz</h1>
-    <p><strong>Estudante de Sistemas de Informação</strong></p>
-    <p>Idade: 23 anos</p>
-    <hr> <!-- Essa tag cria uma linha divisória -->
+    <header>
+        <!-- Substitua o src abaixo pela URL da sua foto -->
+        <img src="foto.jpeg" alt="Foto de Priscila Trein da Luz">
+        <h1>Priscila Trein da Luz</h1>
+        <p>23 anos | Estudante de Sistemas de Informação - UNIFEBE (Brusque)</p>
+        <p>Em busca da primeira oportunidade na área de tecnologia</p>
+        <div class="contact-info">
+            <a href="mailto:priscila.luz@unifebe.edu.br">priscila.luz@unifebe.edu.br</a>
+            <a href="tel:+5547996935439">(47) 99693-5439</a>
+            <a href="https://github.com/Priscila-luz487" target="_blank">GitHub</a>
+        </div>
+    </header>
 
-    <!-- Sobre Mim -->
-    <h2>Sobre Mim</h2>
-    <p>
-        Iniciei minha graduação em <strong>Sistemas de Informação</strong> este ano (2026) na <strong>UNIFEBE</strong>. 
-        Estou em busca da minha primeira oportunidade no mercado de tecnologia para aplicar os conhecimentos 
-        que venho adquirindo na faculdade e desenvolver minhas habilidades técnicas.
-    </p>
+    <section>
+        <h2>Resumo Profissional</h2>
+        <p>Sou estudante dedicada de Sistemas de Informação, com interesse em desenvolvimento web, programação e análise de sistemas. Atualmente, também estou cursando inglês básico para ampliar minhas oportunidades no mercado de trabalho. Busco minha primeira experiência profissional na área de tecnologia, onde possa aplicar meus conhecimentos acadêmicos, desenvolver novas habilidades e contribuir para projetos inovadores. Tenho facilidade para aprender novas ferramentas, trabalhar em equipe e resolver problemas de forma criativa.</p>
+    </section>
 
-    <!-- Formação Acadêmica -->
-    <h2>Formação Acadêmica</h2>
-    <ul>
-        <li>
-            <strong>Bacharelado em Sistemas de Informação</strong><br>
-            Centro Universitário de Brusque (UNIFEBE)<br>
-            <em>Início em 2026 - Previsão de Formatura: 2030</em>
-        </li>
-    </ul>
+    <section>
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li><strong>Bacharelado em Sistemas de Informação</strong> - UNIFEBE, Brusque (Em andamento)</li>
+            <li><strong>Curso de Inglês Básico</strong> - (Em andamento)</li>
+        </ul>
+    </section>
 
-    <!-- Conhecimentos (Skills) -->
-    <h2>Conhecimentos em Estudo</h2>
-    <ul>
-        <li>Lógica de Programação</li>
-        <li>Algoritmos</li>
-        <li>HTML (Estrutura de sites)</li>
-        <li>Git e GitHub</li>
-    </ul>
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5, CSS3 (básico/intermediário)</li>
+            <li>Lógica de Programação</li>
+            <li>Git e GitHub</li>
+            <li>Trabalho em equipe</li>
+            <li>Aprendizado rápido</li>
+        </ul>
+    </section>
 
-    <!-- Contato -->
-    <h2>Contato</h2>
-    <p>Caso queira conversar sobre oportunidades ou projetos, entre em contato:</p>
-    <ul>
-        <li><strong>E-mail:</strong> priscila.luz@unifebe.edu.br</li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/Priscila-luz487">Meu Perfil</a></li>
-    </ul>
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Básico (cursando)</li>
+        </ul>
+    </section>
 
-    <hr>
-    <center>
-        <p>Site criado por Priscila Luz - 2026</p>
-    </center>
+    <footer>
+        <p>&copy; 2026 Priscila Treiin da Luz | 
+            <a href="mailto:priscila.luz@unifebe.edu.br">E-mail</a> | 
+            <a href="https://github.com/Priscila-luz487" target="_blank">GitHub</a>
+        </p>
+    </footer>
 
 </body>
 </html>
